@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* formulaire inscription */
+.inscrip {
+    width: 90%;
+}
+.inscrip h1{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+#identif {
+    margin-top: 40px;
+}
+.requis {
+    color:red;
+    margin-left: 180px;
+}
+#identif label {
+    text-align: right;
+    padding: 0;
+    line-height: 1;
+    align-self: center;
+    color: #74767a;
+}
+.form-group {
+    margin-top: 10px;
+    align-items: center;
+}
+#identif .form-control {
+    background-color: rgba(176, 180, 186, 0.8);
+}
+.partTwo {
+display: flex;
+}
+
+.left, .right {
+    width: 50%;
+}
+.left {
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.right {
+	height: 450px;
+	width:400px;
+    padding-left: 25px;
+    padding-top: 55px;
+    background: url('../img/CADRE_numero.png') no-repeat;
+    background-position: right;
+    background-size: contain;
+	padding-bottom: 40px;
+    
+}
+#mobile, #fixe {
+    background-color: #e8e9ea!important;
+}
+.right .form-group {
+    justify-content: right;
+}
+#validInscrip {
+    margin: 60px;
+}
+#validInscrip button {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+.bas img {
+    width: 100%;
+    margin-top: 60px;
+}
+@media screen and (max-width: 780px) {
+    #identif label {
+        text-align: left;
+    }
+    .inscrip {
+        width: 100%;
+    }
+    .champs {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .deuz {
+        margin-top: 0;
+    }
+    .partTwo {
+        display: block;
+    }
+    .left, .right {
+        width: 100%;
+    }
+    .right {
+        height: 491px;
+        padding: 20px;
+        padding-top: 100px;
+        background-position: center;
+        background-size: 100%;
+        margin-right: 0;
+    }
+    #validInscrip {
+        margin: 0px;
+    }
+}
+/* consultation du compte utilisateur et modifications des donnÃ©es */
+.compteForm {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #74767a;
+}
+.boutons {
+    text-align: center;
+    margin-top: 40px;
+}
+#infos label, .comm, legend {
+    font-weight: bolder;
+}
+fieldset {
+    margin-bottom: 40px;
+    border: 1px solid #74767a;
+    border-radius: 5px;
+    padding: 20px;
+}
+legend {
+    width: 30%;
+    padding-left: 6px;
+}
+fieldset .form-control#mobile, fieldset .form-control#fixe{
+    background-color: white!important;
+}
+/* modif mot de passe */
+#modifMdp div.modal-body{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}

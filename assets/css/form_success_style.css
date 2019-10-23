@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.formSuccess {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+.formSuccess h3, .formSuccess p {
+    margin-bottom: 30px;
+}
+.formSuccess a {
+    margin-top: 30px;
+}
